@@ -7,3 +7,6 @@
 .black-white{
     filter: grayscale(1);
 }
+.icon-color{
+    color: yellow;
+}
