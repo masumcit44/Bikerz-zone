@@ -4,3 +4,6 @@
 .bz-btn{
     background-color: #E76F51;
 }
+.black-white{
+    filter: grayscale(1);
+}
