@@ -14,8 +14,8 @@
     <!-- my css link -->
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body class="container">
-    <header class="header-color text-white">
+  <body >
+    <header class="header-color text-white container">
       <!-- navbar section starts from here -->
       <section>
         <nav class="navbar navbar-expand-lg  w-100">
@@ -64,7 +64,7 @@
       </section>
       <!-- navbar section ends here -->
       <!-- carousel section starts from here -->
-      <section>
+      <section class="">
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="row gy-5 p-5">
@@ -106,11 +106,11 @@
       </section>
       <!-- carousel section ends here -->
     </header>
-    <main>
+    <main class="container" >
         <!-- main title section starts here -->
         
         
-        <section class="text-center">
+        <section class="text-center mt-5">
             <h1>
                 Fetured Bikes In This Year
             </h1>
@@ -122,7 +122,7 @@
         <!-- main title section ends here -->
         <!-- img banner section starts here -->
         
-        <section class="p-3">
+        <section class="p-3 my-5">
             <div class="row  justify-content-center g-5">
                 <div class="col-12 col-lg-4">
                     <img class="black-white w-50 mx-5" src="images/feature-bike.jpg" alt="">
@@ -137,7 +137,7 @@
         </section>
         <!-- img banner section ends here -->
         <!-- card section starts here  -->
-        <section>
+        <section class="mb-5">
             <div class="row  row-cols-1 row-cols-md-3 g-4">
                 <div class="col ">
                     <div class="card h-100 p-3">
@@ -176,7 +176,7 @@
         <!-- card section ends here  -->
         <!-- happy client section starts -->
         <section>
-            <h1 class="text-center">Happy <span class="text-danger"> client says</span></h1>
+            <h1 class="text-center mb-5">Happy <span class="text-danger"> client says</span></h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card h-100">
@@ -298,7 +298,39 @@
         </section>
         <!-- frequently asked section ends -->
     </main>
-    <footer></footer>
+    <footer class=" text-white  ">
+        <section class="d-lg-flex justify-content-evenly py-5">
+            <div class="">
+                <div class="">
+                 <button class="bz-btn-1 me-3 text-white">
+                     Download now
+                 </button>
+                 <a class="text-decoration-none text-white" href="">License</a>
+                 
+                </div>
+                
+                <div class="">
+                 <ul class="d-lg-flex gap-4 list-unstyled p-1  ">
+                     <li><a class="text-decoration-none text-white" href="">About</a></li>
+                     <li><a class="text-decoration-none text-white" href="">Features</a></li>
+                     <li><a class="text-decoration-none text-white" href="">Pricing</a></li>
+                     <li><a class="text-decoration-none text-white" href="">Careers</a></li>
+                     <li><a class="text-decoration-none text-white" href="">Help</a></li>
+                     <li><a class="text-decoration-none text-white" href="">Privacy Policy</a></li>
+     
+                 </ul>
+                 <p> © 2020 bike. All rights reserved</p>
+                </div>
+             </div>
+             <div class="">
+                 <p>get the app</p>
+                 <div class="d-flex flex-column gap-2 ">
+                     <img class="foot-img" src="images/ios.png" alt="">
+                     <img class="foot-img" src="images/android.png" alt="">
+                 </div>
+             </div>
+        </section>
+    </footer>
     <!-- bootstrap js link -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
